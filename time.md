@@ -2,6 +2,7 @@
 
 <sup>Export from Git Log</sup>
 
+ - Fixed issues with isAnagram function so that it ignores whitespace & punctuation - 22:16
  - Added tests & functionality for inPangram Simon Crow - 22:06
  - Added tests & functionality for isAnagram method Simon Crow 21:52
  - Added tests & functionality for isPalindrome method Simon Crow - 21:40
