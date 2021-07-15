@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Simoncrow\\Jadu\\": "src/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
