@@ -33,11 +33,13 @@ class CheckerTest extends TestCase
 
     public function testValidPangram(): void
     {
-
+        self::assertTrue(Checker::isPangram('abcdefghijklmnopqrstuvwxyz'));
+        self::assertTrue(Checker::isPangram('Waltz, bad nymph, for quick jigs vex'));
     }
 
     public function testInvalidPangram(): void
     {
-
+        self::assertFalse(Checker::isPangram('asdfg'));
+        self::assertFalse(Checker::isPangram('abcdefghijklmnopqrstuvwxy'));
     }
 }
