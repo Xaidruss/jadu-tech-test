@@ -21,12 +21,14 @@ class CheckerTest extends TestCase
 
     public function testValidAnagram(): void
     {
-
+        self::assertTrue(Checker::isAnagram('hello', 'olleh'));
+        self::assertTrue(Checker::isAnagram('123456', '456123'));
     }
 
     public function testInvalidAnagram(): void
     {
-
+        self::assertFalse(Checker::isAnagram('world', 'world'));
+        self::assertFalse(Checker::isAnagram('world', 'worlf'));
     }
 
     public function testValidPangram(): void
