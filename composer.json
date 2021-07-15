@@ -1,0 +1,30 @@
+{
+    "name": "simoncrow/jadu",
+    "description": "Jadu Tech Test",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simoncrow\\Jadu\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Crow",
+            "email": "simon.crow2@hotmail.co.uk"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    }
+}
